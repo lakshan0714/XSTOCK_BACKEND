@@ -1,0 +1,10 @@
+﻿pydantic[email]==2.11.5
+fastapi==0.115.12
+uvicorn==0.34.2
+passlib==1.7.4
+sqlalchemy==2.0.39
+dotenv== 0.9.9
+python-multipart==0.0.6
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+bcrypt==4.2.0

@@ -5,7 +5,7 @@ import enum
 
 class UserRole(enum.Enum):
     admin = "admin"
-    superadmin ="superadmin"
+    user ="user"
 
 
 
@@ -13,7 +13,7 @@ class UserCreate(BaseModel):
     username: str
     email: EmailStr
     password: str
-    role: UserRole  # Must be one of 'creater', 'merchandiser', 'user'
+    role: UserRole 
 
 
 

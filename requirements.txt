@@ -8,3 +8,8 @@ python-multipart==0.0.6
 asyncpg==0.30.0
 psycopg2-binary==2.9.10
 bcrypt==4.2.0
+pandas
+numpy
+joblib
+sklearn
+xgboost

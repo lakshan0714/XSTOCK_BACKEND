@@ -218,7 +218,7 @@ class UserService:
                 raise HTTPException(status_code=404, detail="User not found")
             
             # Check permissions
-            if current_user.id != user.id and current_user.role != "admin":
+            if current_user.id != user.id :
                 raise HTTPException(status_code=403, detail="Insufficient permissions to change this user's password")
             
             # Verify old password (only if user is changing their own password)
